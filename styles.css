@@ -1,0 +1,32 @@
+/* Stylish Song CSS — required course styling */
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, white, lightgray);
+  min-height: 100vh;
+  margin: 24px;
+}
+h1 {
+  color: darkblue;
+  padding: 8px;
+  text-shadow: 5px 5px 6px gray;
+}
+p {
+  color: white;
+  width: 350px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 10px;
+  background: linear-gradient(to bottom right, darkblue, skyblue);
+  box-shadow: 5px 5px 6px gray;
+  border-radius: 5px;
+}
+/* The professor's selector targets the fifth child of main: the fourth p.
+   Use p:nth-of-type(5) to target the actual fifth paragraph. */
+p:nth-of-type(5) {
+  background: revert;
+  box-shadow: revert;
+  padding: revert;
+  color: darkblue;
+}
+a { font-size: 12px; }
