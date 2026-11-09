@@ -30,3 +30,14 @@ p:nth-of-type(5) {
   color: darkblue;
 }
 a { font-size: 12px; }
+/* Responsive styling for smaller screens */
+@media (max-width: 480px) {
+    p {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    body {
+        padding: 15px;
+    }
+}
